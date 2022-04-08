@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Exo-splitter/static/css/main.29151415.css",
+    "main.js": "/Exo-splitter/static/js/main.bcad8852.js",
+    "static/js/787.24edea4d.chunk.js": "/Exo-splitter/static/js/787.24edea4d.chunk.js",
+    "index.html": "/Exo-splitter/index.html",
+    "main.29151415.css.map": "/Exo-splitter/static/css/main.29151415.css.map",
+    "main.bcad8852.js.map": "/Exo-splitter/static/js/main.bcad8852.js.map",
+    "787.24edea4d.chunk.js.map": "/Exo-splitter/static/js/787.24edea4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29151415.css",
+    "static/js/main.bcad8852.js"
+  ]
+}
