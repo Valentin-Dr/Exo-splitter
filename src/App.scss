@@ -124,8 +124,53 @@ button {
   cursor: pointer;
   border: none;
 }
-// input, button {
-//   height: 35px;
-//   width: 95%;
-//   border-radius: 10px;
-// }
+
+// Responsive
+
+@media screen and (max-width: 1377px) {
+  // html {
+  //   font-size: 0.8rem;
+  // }
+  // .App-title {
+  //   width: 70px;
+  // }
+  input[type=number]:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .splitter {
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    padding-bottom: 15px;
+    &-left {
+      width: 80%;
+    }
+    &-right {
+      width: 65%;
+    }
+  }
+
+  .tipsChoices {
+    align-items: center;
+    justify-content: center;
+    & input {
+      font-size: 1.2rem;
+      outline: 1px black solid;
+      border: none;
+      width: 29%;
+      margin: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .App-title {
+    width: 70px;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+}

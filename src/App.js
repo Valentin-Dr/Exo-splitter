@@ -5,12 +5,10 @@ function App() {
   const [bill, setBill] = useState(0);
   const [tip, setTip] = useState(0);
   const [nbrOfPeople, setNbrOfPeople] = useState(1);
-  const [tipPerPerson, setTipPerPerson] = useState(0);
   const resetButton = () => {
     setBill(0);
     setTip(0);
     setNbrOfPeople(0);
-    setTipPerPerson(0);
   }
   return (
     <div className="App">
@@ -68,7 +66,7 @@ function App() {
                 <p>Tip Amount</p>
                 <p className="perPerson">/ person</p>
               </div>
-                <p className="price">${tipPerPerson}</p>
+                <p className="price">${bill === 0 || nbrOfPeople === 0 ? 0 : (tip * bill / 100) / nbrOfPeople}</p>
             </section>
             <section className="splitter-right-section">
               <div>
