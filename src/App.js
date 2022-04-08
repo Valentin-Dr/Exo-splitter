@@ -66,7 +66,7 @@ function App() {
                 <p>Tip Amount</p>
                 <p className="perPerson">/ person</p>
               </div>
-                <p className="price">${bill === 0 || nbrOfPeople === 0 ? 0 : (tip * bill / 100) / nbrOfPeople}</p>
+                <p className="price">${bill === 0 || nbrOfPeople === 0 ? 0 : ((tip * bill / 100) / nbrOfPeople).toFixed(2)}</p>
             </section>
             <section className="splitter-right-section">
               <div>
